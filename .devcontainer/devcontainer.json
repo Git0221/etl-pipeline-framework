@@ -1,0 +1,21 @@
+{
+    "name":"etl-pipeline-framework",
+    "image":"mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/itsmechlark/features/postgresql:1":{
+            "version":"15"
+        }
+    },
+    "postCreateCommand": "python -m pip install -r requirements.txt",
+    "forwardPorts": [5432,8080],
+    "portsAttributes": {
+        "8080": {
+            "label": "Airflow UI"
+            },
+        "5432":{"lable":"postgres"}
+    },
+    "remoteEnv": {"AIRFLOW_HOME":"${containerWorkspaceFolder}/airflow",
+"PGPASSWORD":"postgres"
+}
+
+}

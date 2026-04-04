@@ -1,0 +1,5 @@
+duckdb==0.10.0
+psycopg2-binary==2.9.9
+apache-airflow==2.9.2
+dbt-postgres>=1.8.0,<2.0.0
+pandas==2.2.0
