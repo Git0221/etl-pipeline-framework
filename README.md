@@ -47,3 +47,23 @@ The project uses a `.devcontainer` configuration to ensure a consistent develope
 3. Verify PostgreSQL access:
    ```bash
    psql -U postgres
+
+---
+
+Versioning
+
+Current tag: v0.1‑env‑ready
+This tag represents a fully validated environment baseline
+
+
+What’s Next (Phase 2)
+
+Data ingestion pipelines
+Airflow DAGs
+dbt transformation models
+Analytics‑ready marts
+
+
+Author
+Rakesh Kumar
+Senior Data Engineer | Building in Public 🚀
