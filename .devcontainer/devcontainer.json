@@ -12,7 +12,7 @@
         "8080": {
             "label": "Airflow UI"
             },
-        "5432":{"lable":"postgres"}
+        "5432":{"label":"postgres"}
     },
     "remoteEnv": {"AIRFLOW_HOME":"${containerWorkspaceFolder}/airflow",
 "PGPASSWORD":"postgres"
