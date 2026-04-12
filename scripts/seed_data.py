@@ -2,11 +2,13 @@ import duckdb
 from sqlalchemy import create_engine
 from sqlalchemy.exc import SQLAlchemyError
 import pandas as pd
+import psycopg2
+from io import StringIO
 
 # Connect to the DuckDB database
 con=duckdb.connect()
 
-con.execute("CALL dbgen(sf=1)")
+con.execute("CALL dbgen(sf=0.1)")
 
 tables=con.execute("SHOW TABLES").fetchall()
 print(tables)
@@ -21,22 +23,39 @@ DB_NAME='tpch'
 DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 try:
-    # Create a SQLAlchemy engine
-    engine = create_engine(DATABASE_URL)
+    pg_conn = psycopg2.connect(
+        dbname=DB_NAME,
+        user=DB_USER,
+        password=DB_PASSWORD,
+        host=DB_HOST,
+        port=DB_PORT)
+    cursor = pg_conn.cursor()
+    for table in tables:
+        table_name = table[0]
+        print(f"Processing table: {table_name}")
+        
+        # Fetch data from DuckDB
+        df = con.execute(f"SELECT * FROM {table_name}").fetchdf()
 
-    # Connect to the database
-    with engine.connect() as connection:
-        # Execute a simple query to verify the connection
-        for table in tables:
-            table_name = table[0]
-            print(f"Copying data for table: {table_name}")
-            # Read data from DuckDB
-            df = con.execute(f"SELECT * FROM {table_name}").fetchdf()
-            # Write data to PostgreSQL
-            df.to_sql(table_name, con=con, if_exists='replace', index=False,schema='source')
-            con.commit()
-            print(f"Data for table {table_name} loaded successfully.")
+        #Create table from dataframe
+        cols=", ".join(
+            [f'"{c}" TEXT' for c in df.columns]
+        )
+        cursor.execute(f"DROP TABLE IF EXISTS source.{table_name}")
+        
+        cursor.execute(f"CREATE TABLE source.{table_name} ({cols})")
 
+        #Bulk load using copy
+        buffer = StringIO()
+        df.to_csv(buffer, index=False, header=False)
+        buffer.seek(0)
+        cursor.copy_expert(f"COPY source.{table_name} FROM STDIN WITH CSV", buffer)
+        pg_conn.commit()
+        print(f"Table {table_name} loaded successfully.")
 
-except SQLAlchemyError as e:
+    cursor.close()    
+    pg_conn.close()
+except Exception as e:
     print(f"An error occurred: {e}")
+
+   
