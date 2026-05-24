@@ -1,0 +1,288 @@
+[2026-05-23T12:01:38.346+0000] {processor.py:161} INFO - Started process (PID=26328) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:01:38.346+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:01:38.347+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:38.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:01:38.349+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:38.349+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:38.350+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:01:38.363+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:02:12.155+0000] {processor.py:161} INFO - Started process (PID=27905) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:02:12.156+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:02:12.157+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:12.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:02:12.160+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:12.159+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:12.160+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:02:12.181+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.040 seconds
+[2026-05-23T12:02:42.761+0000] {processor.py:161} INFO - Started process (PID=29599) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:02:42.762+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:02:42.762+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:42.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:02:42.764+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:42.764+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:42.765+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:02:42.777+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:03:13.366+0000] {processor.py:161} INFO - Started process (PID=29878) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:03:13.367+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:03:13.367+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:13.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:03:13.370+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:13.369+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:13.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:03:13.383+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.024 seconds
+[2026-05-23T12:03:43.873+0000] {processor.py:161} INFO - Started process (PID=29995) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:03:43.873+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:03:43.874+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:43.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:03:43.876+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:43.876+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:43.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:03:43.891+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.024 seconds
+[2026-05-23T12:04:14.220+0000] {processor.py:161} INFO - Started process (PID=30105) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:04:14.220+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:04:14.221+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:14.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:04:14.223+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:14.222+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:14.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:04:14.237+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.024 seconds
+[2026-05-23T12:04:44.620+0000] {processor.py:161} INFO - Started process (PID=30219) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:04:44.621+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:04:44.621+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:44.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:04:44.624+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:44.623+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:44.624+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:04:44.637+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:05:15.028+0000] {processor.py:161} INFO - Started process (PID=30334) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:05:15.028+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:05:15.029+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:15.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:05:15.031+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:15.030+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:15.031+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:05:15.044+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:05:46.890+0000] {processor.py:161} INFO - Started process (PID=30451) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:05:46.890+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:05:46.891+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:46.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:05:46.893+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:46.893+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:46.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:05:46.907+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.024 seconds
+[2026-05-23T12:06:17.602+0000] {processor.py:161} INFO - Started process (PID=30567) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:06:17.603+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:06:17.604+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:17.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:06:17.606+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:17.605+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:17.606+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:06:17.619+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:06:48.454+0000] {processor.py:161} INFO - Started process (PID=30683) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:06:48.454+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:06:48.455+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:48.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:06:48.457+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:48.457+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:48.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:06:48.470+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:07:19.172+0000] {processor.py:161} INFO - Started process (PID=30791) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:07:19.173+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:07:19.173+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:19.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:07:19.176+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:19.175+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:19.176+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:07:19.189+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:07:49.744+0000] {processor.py:161} INFO - Started process (PID=30907) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:07:49.744+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:07:49.745+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:49.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:07:49.747+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:49.747+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:49.748+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:07:49.761+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.024 seconds
+[2026-05-23T12:08:20.247+0000] {processor.py:161} INFO - Started process (PID=31016) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:08:20.247+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:08:20.248+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:20.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:08:20.250+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:20.249+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:20.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:08:20.263+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:08:50.795+0000] {processor.py:161} INFO - Started process (PID=31240) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:08:50.795+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:08:50.796+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:50.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:08:50.798+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:50.797+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:50.799+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:08:50.811+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.024 seconds
+[2026-05-23T12:09:21.272+0000] {processor.py:161} INFO - Started process (PID=31486) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:09:21.273+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:09:21.273+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:21.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:09:21.276+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:21.275+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:21.276+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:09:21.289+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:09:53.225+0000] {processor.py:161} INFO - Started process (PID=31682) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:09:53.225+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:09:53.226+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:53.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:09:53.228+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:53.227+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:53.229+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:09:53.242+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:10:24.210+0000] {processor.py:161} INFO - Started process (PID=31882) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:10:24.211+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:10:24.211+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:24.211+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:10:24.214+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:24.213+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:24.214+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:10:24.227+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds
+[2026-05-23T12:10:54.442+0000] {processor.py:161} INFO - Started process (PID=32082) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:10:54.443+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py for tasks to queue
+[2026-05-23T12:10:54.444+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:54.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:10:54.446+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:54.445+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:54.446+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py
+[2026-05-23T12:10:54.459+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_bash_operator.py took 0.023 seconds

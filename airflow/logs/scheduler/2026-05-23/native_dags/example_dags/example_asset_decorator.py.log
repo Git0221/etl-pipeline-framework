@@ -1,0 +1,459 @@
+[2026-05-23T12:01:49.219+0000] {processor.py:161} INFO - Started process (PID=26780) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:01:49.219+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:01:49.220+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:49.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:01:49.226+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:49.223+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:49.227+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:01:49.256+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.049 seconds
+[2026-05-23T12:02:21.741+0000] {processor.py:161} INFO - Started process (PID=29245) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:02:21.741+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:02:21.742+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:21.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:02:21.758+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:21.755+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:21.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:02:21.773+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.038 seconds
+[2026-05-23T12:02:53.017+0000] {processor.py:161} INFO - Started process (PID=29759) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:02:53.017+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:02:53.018+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:53.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:02:53.021+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:53.020+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:53.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:02:53.034+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:03:23.533+0000] {processor.py:161} INFO - Started process (PID=29918) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:03:23.534+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:03:23.534+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:23.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:03:23.538+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:23.537+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:23.538+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:03:23.550+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:03:54.041+0000] {processor.py:161} INFO - Started process (PID=30034) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:03:54.042+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:03:54.042+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:54.042+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:03:54.046+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:54.044+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:54.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:03:54.059+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.025 seconds
+[2026-05-23T12:04:24.385+0000] {processor.py:161} INFO - Started process (PID=30142) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:04:24.386+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:04:24.386+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:24.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:04:24.390+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:24.389+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:24.390+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:04:24.403+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.025 seconds
+[2026-05-23T12:04:54.786+0000] {processor.py:161} INFO - Started process (PID=30257) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:04:54.786+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:04:54.787+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:54.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:04:54.790+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:54.789+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:54.790+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:04:54.803+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:05:25.764+0000] {processor.py:161} INFO - Started process (PID=30379) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:05:25.765+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:05:25.765+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:25.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:05:25.768+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:25.767+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:25.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:05:25.783+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.026 seconds
+[2026-05-23T12:05:57.164+0000] {processor.py:161} INFO - Started process (PID=30489) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:05:57.165+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:05:57.165+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:57.165+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:05:57.168+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:57.167+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:57.169+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:05:57.181+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:06:29.137+0000] {processor.py:161} INFO - Started process (PID=30607) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:06:29.137+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:06:29.138+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:29.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:06:29.141+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:29.140+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:29.141+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:06:29.154+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:06:59.410+0000] {processor.py:161} INFO - Started process (PID=30723) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:06:59.410+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:06:59.411+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:59.411+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:06:59.414+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:59.413+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:59.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:06:59.427+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:07:29.677+0000] {processor.py:161} INFO - Started process (PID=30831) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:07:29.677+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:07:29.678+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:29.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:07:29.681+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:29.680+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:29.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:07:29.695+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.025 seconds
+[2026-05-23T12:08:02.138+0000] {processor.py:161} INFO - Started process (PID=30949) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:08:02.138+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:08:02.139+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:02.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:08:02.142+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:02.141+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:02.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:08:02.156+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.025 seconds
+[2026-05-23T12:08:32.409+0000] {processor.py:161} INFO - Started process (PID=31112) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:08:32.409+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:08:32.410+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:32.409+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:08:32.413+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:32.412+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:32.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:08:32.426+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:09:02.673+0000] {processor.py:161} INFO - Started process (PID=31329) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:09:02.674+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:09:02.674+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:02.674+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:09:02.678+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:02.677+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:02.678+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:09:02.692+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.026 seconds
+[2026-05-23T12:09:33.086+0000] {processor.py:161} INFO - Started process (PID=31576) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:09:33.087+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:09:33.088+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:33.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:09:33.093+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:33.091+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:33.093+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:09:33.173+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.095 seconds
+[2026-05-23T12:10:05.238+0000] {processor.py:161} INFO - Started process (PID=31755) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:10:05.238+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:10:05.239+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:05.239+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:10:05.242+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:05.241+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:05.243+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:10:05.255+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:10:35.851+0000] {processor.py:161} INFO - Started process (PID=31960) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:10:35.851+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:10:35.852+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:35.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:10:35.855+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:35.854+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:35.855+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:10:35.868+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.024 seconds
+[2026-05-23T12:11:06.477+0000] {processor.py:161} INFO - Started process (PID=32179) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:11:06.478+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py for tasks to queue
+[2026-05-23T12:11:06.479+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:06.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:11:06.483+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:06.481+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py", line 21, in <module>
+    from airflow.sdk import Asset, asset, dag, task
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/__init__.py", line 137, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/sdk/definitions/asset/decorators.py", line 25, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:11:06.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py
+[2026-05-23T12:11:06.502+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_asset_decorator.py took 0.033 seconds

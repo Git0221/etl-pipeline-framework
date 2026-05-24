@@ -1,0 +1,304 @@
+[2026-05-23T12:01:27.718+0000] {processor.py:161} INFO - Started process (PID=25550) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:01:27.718+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:01:27.719+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:27.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:01:27.721+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:27.720+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:27.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:01:27.740+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.029 seconds
+[2026-05-23T12:02:01.337+0000] {processor.py:161} INFO - Started process (PID=27651) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:02:01.341+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:02:01.341+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:01.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:02:01.364+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:01.363+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:01.373+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:02:01.497+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.203 seconds
+[2026-05-23T12:02:32.592+0000] {processor.py:161} INFO - Started process (PID=29441) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:02:32.592+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:02:32.593+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:32.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:02:32.596+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:32.595+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:32.596+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:02:32.610+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.025 seconds
+[2026-05-23T12:03:03.197+0000] {processor.py:161} INFO - Started process (PID=29843) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:03:03.198+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:03:03.199+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:03.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:03:03.201+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:03.200+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:03.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:03:03.214+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.024 seconds
+[2026-05-23T12:03:33.711+0000] {processor.py:161} INFO - Started process (PID=29956) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:03:33.711+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:03:33.712+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:33.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:03:33.715+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:33.714+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:33.715+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:03:33.732+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.031 seconds
+[2026-05-23T12:04:04.119+0000] {processor.py:161} INFO - Started process (PID=30072) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:04:04.120+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:04:04.120+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:04.120+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:04:04.123+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:04.122+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:04.123+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:04:04.136+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:04:34.449+0000] {processor.py:161} INFO - Started process (PID=30180) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:04:34.450+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:04:34.450+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:34.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:04:34.453+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:34.452+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:34.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:04:34.466+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:05:04.857+0000] {processor.py:161} INFO - Started process (PID=30295) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:05:04.858+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:05:04.858+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:04.858+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:05:04.861+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:04.860+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:04.861+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:05:04.874+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.024 seconds
+[2026-05-23T12:05:35.578+0000] {processor.py:161} INFO - Started process (PID=30405) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:05:35.579+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:05:35.580+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:35.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:05:35.582+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:35.581+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:35.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:05:35.596+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.024 seconds
+[2026-05-23T12:06:07.435+0000] {processor.py:161} INFO - Started process (PID=30528) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:06:07.436+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:06:07.436+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:07.436+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:06:07.439+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:07.438+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:07.439+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:06:07.453+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.024 seconds
+[2026-05-23T12:06:38.290+0000] {processor.py:161} INFO - Started process (PID=30643) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:06:38.290+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:06:38.291+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:38.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:06:38.293+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:38.292+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:38.293+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:06:38.306+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:07:09.008+0000] {processor.py:161} INFO - Started process (PID=30753) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:07:09.008+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:07:09.009+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:09.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:07:09.011+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:09.010+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:09.011+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:07:09.024+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:07:39.602+0000] {processor.py:161} INFO - Started process (PID=30868) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:07:39.602+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:07:39.603+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:39.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:07:39.606+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:39.605+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:39.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:07:39.621+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.026 seconds
+[2026-05-23T12:08:10.077+0000] {processor.py:161} INFO - Started process (PID=30983) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:08:10.077+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:08:10.078+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:10.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:08:10.080+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:10.079+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:10.081+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:08:10.094+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.025 seconds
+[2026-05-23T12:08:40.625+0000] {processor.py:161} INFO - Started process (PID=31177) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:08:40.626+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:08:40.626+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:40.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:08:40.629+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:40.628+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:40.629+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:08:40.642+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:09:11.108+0000] {processor.py:161} INFO - Started process (PID=31399) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:09:11.109+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:09:11.109+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:11.109+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:09:11.112+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:11.111+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:11.112+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:09:11.125+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:09:43.054+0000] {processor.py:161} INFO - Started process (PID=31649) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:09:43.055+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:09:43.055+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:43.055+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:09:43.058+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:43.057+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:43.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:09:43.071+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:10:13.668+0000] {processor.py:161} INFO - Started process (PID=31816) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:10:13.669+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:10:13.669+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:13.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:10:13.672+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:13.671+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:13.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:10:13.685+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.023 seconds
+[2026-05-23T12:10:44.281+0000] {processor.py:161} INFO - Started process (PID=32029) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:10:44.282+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:10:44.282+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:44.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:10:44.285+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:44.284+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:44.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:10:44.298+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.027 seconds
+[2026-05-23T12:11:14.921+0000] {processor.py:161} INFO - Started process (PID=32239) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:11:14.921+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-23T12:11:14.922+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:14.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:11:14.925+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:14.923+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:11:14.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-23T12:11:14.940+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.026 seconds

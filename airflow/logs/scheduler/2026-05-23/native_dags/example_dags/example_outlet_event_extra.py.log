@@ -1,0 +1,288 @@
+[2026-05-23T12:01:41.769+0000] {processor.py:161} INFO - Started process (PID=26374) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:01:41.770+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:01:41.770+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:41.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:01:41.774+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:41.773+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:41.775+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:01:41.798+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.051 seconds
+[2026-05-23T12:02:16.142+0000] {processor.py:161} INFO - Started process (PID=28544) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:02:16.143+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:02:16.143+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:16.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:02:16.146+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:16.145+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:16.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:02:16.159+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:02:46.769+0000] {processor.py:161} INFO - Started process (PID=29645) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:02:46.770+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:02:46.770+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:46.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:02:46.772+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:46.772+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:46.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:02:46.786+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:03:17.367+0000] {processor.py:161} INFO - Started process (PID=29899) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:03:17.367+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:03:17.368+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:17.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:03:17.371+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:17.370+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:17.372+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:03:17.387+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.027 seconds
+[2026-05-23T12:03:47.873+0000] {processor.py:161} INFO - Started process (PID=30015) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:03:47.873+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:03:47.874+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:47.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:03:47.876+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:47.875+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:47.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:03:47.890+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.024 seconds
+[2026-05-23T12:04:18.220+0000] {processor.py:161} INFO - Started process (PID=30124) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:04:18.221+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:04:18.221+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:18.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:04:18.223+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:18.223+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:18.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:04:18.236+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:04:48.619+0000] {processor.py:161} INFO - Started process (PID=30239) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:04:48.620+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:04:48.621+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:48.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:04:48.623+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:48.622+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:48.623+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:04:48.636+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:05:19.027+0000] {processor.py:161} INFO - Started process (PID=30348) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:05:19.028+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:05:19.028+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:19.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:05:19.031+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:19.030+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:19.031+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:05:19.043+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:05:50.894+0000] {processor.py:161} INFO - Started process (PID=30465) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:05:50.895+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:05:50.895+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:50.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:05:50.897+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:50.897+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:50.898+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:05:50.911+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.024 seconds
+[2026-05-23T12:06:21.739+0000] {processor.py:161} INFO - Started process (PID=30581) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:06:21.740+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:06:21.740+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:21.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:06:21.743+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:21.742+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:21.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:06:21.756+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.024 seconds
+[2026-05-23T12:06:52.465+0000] {processor.py:161} INFO - Started process (PID=30691) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:06:52.465+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:06:52.466+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:52.466+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:06:52.468+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:52.468+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:52.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:06:52.481+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:07:23.179+0000] {processor.py:161} INFO - Started process (PID=30805) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:07:23.179+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:07:23.180+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:23.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:07:23.182+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:23.181+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:23.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:07:23.195+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:07:53.749+0000] {processor.py:161} INFO - Started process (PID=30921) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:07:53.750+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:07:53.750+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:53.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:07:53.753+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:53.752+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:53.753+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:07:53.766+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:08:24.608+0000] {processor.py:161} INFO - Started process (PID=31064) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:08:24.608+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:08:24.609+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:24.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:08:24.611+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:24.610+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:24.611+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:08:24.623+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:08:55.001+0000] {processor.py:161} INFO - Started process (PID=31275) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:08:55.002+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:08:55.002+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:55.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:08:55.005+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:55.004+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:55.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:08:55.018+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.023 seconds
+[2026-05-23T12:09:25.403+0000] {processor.py:161} INFO - Started process (PID=31522) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:09:25.404+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:09:25.405+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:25.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:09:25.408+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:25.407+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:25.409+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:09:25.427+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.035 seconds
+[2026-05-23T12:09:58.115+0000] {processor.py:161} INFO - Started process (PID=31704) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:09:58.116+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:09:58.117+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:58.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:09:58.119+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:58.118+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:58.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:09:58.132+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.024 seconds
+[2026-05-23T12:10:28.513+0000] {processor.py:161} INFO - Started process (PID=31915) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:10:28.513+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:10:28.514+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:28.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:10:28.516+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:28.516+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:28.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:10:28.530+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.024 seconds
+[2026-05-23T12:10:58.914+0000] {processor.py:161} INFO - Started process (PID=32110) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:10:58.914+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-23T12:10:58.915+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:58.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:10:58.919+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:58.918+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:58.920+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-23T12:10:58.939+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.037 seconds

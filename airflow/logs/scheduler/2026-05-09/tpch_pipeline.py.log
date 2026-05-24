@@ -1,0 +1,774 @@
+[2026-05-09T11:38:31.014+0000] {processor.py:161} INFO - Started process (PID=19376) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:38:31.015+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:38:31.015+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:38:31.015+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:38:31.021+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:38:31.101+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:38:31.101+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:tpch_pipeline
+[2026-05-09T11:38:31.110+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:38:31.110+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:tpch_pipeline
+[2026-05-09T11:38:31.117+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:38:31.117+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:tpch_pipeline
+[2026-05-09T11:38:31.117+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:38:31.117+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:38:31.125+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:38:31.125+0000] {dag.py:3118} INFO - Creating ORM DAG for tpch_pipeline
+[2026-05-09T11:38:31.132+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:38:31.132+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:38:31.148+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.140 seconds
+[2026-05-09T11:39:08.833+0000] {processor.py:161} INFO - Started process (PID=19827) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:39:08.833+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:39:08.834+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:39:08.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:39:08.840+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:39:08.850+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:39:08.850+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:39:08.865+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:39:08.865+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:39:08.882+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.056 seconds
+[2026-05-09T11:39:48.914+0000] {processor.py:161} INFO - Started process (PID=20393) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:39:48.915+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:39:48.915+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:39:48.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:39:48.920+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:39:48.930+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:39:48.930+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:39:48.944+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:39:48.944+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:39:48.960+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.052 seconds
+[2026-05-09T11:40:30.575+0000] {processor.py:161} INFO - Started process (PID=20672) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:40:30.576+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:40:30.577+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:40:30.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:40:30.582+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:40:30.591+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:40:30.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:40:30.606+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:40:30.606+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:40:30.621+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.052 seconds
+[2026-05-09T11:41:14.473+0000] {processor.py:161} INFO - Started process (PID=21209) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:41:14.473+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:41:14.474+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:41:14.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:41:14.480+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:41:14.490+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:41:14.490+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:41:14.504+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:41:14.504+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:41:14.520+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.056 seconds
+[2026-05-09T11:41:59.022+0000] {processor.py:161} INFO - Started process (PID=21596) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:41:59.023+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:41:59.024+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:41:59.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:41:59.031+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:41:59.044+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:41:59.044+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:41:59.062+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:41:59.062+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:41:59.080+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.064 seconds
+[2026-05-09T11:42:42.801+0000] {processor.py:161} INFO - Started process (PID=21974) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:42:42.802+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:42:42.803+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:42:42.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:42:42.821+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:42:42.846+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:42:42.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:42:42.876+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:42:42.876+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:42:42.905+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.113 seconds
+[2026-05-09T11:43:28.971+0000] {processor.py:161} INFO - Started process (PID=22314) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:43:28.971+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:43:28.972+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:43:28.972+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:43:28.977+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:43:28.987+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:43:28.987+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:43:29.008+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:43:29.007+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:43:29.026+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.062 seconds
+[2026-05-09T11:44:10.431+0000] {processor.py:161} INFO - Started process (PID=22742) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:44:10.431+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:44:10.432+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:44:10.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:44:10.440+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:44:10.449+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:44:10.449+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:44:10.466+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:44:10.466+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:44:10.487+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.066 seconds
+[2026-05-09T11:44:50.516+0000] {processor.py:161} INFO - Started process (PID=23101) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:44:50.517+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:44:50.517+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:44:50.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:44:50.522+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:44:50.533+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:44:50.533+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:44:50.547+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:44:50.547+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:44:50.564+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.054 seconds
+[2026-05-09T11:45:35.303+0000] {processor.py:161} INFO - Started process (PID=23490) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:45:35.303+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:45:35.304+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:45:35.304+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:45:35.309+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:45:35.319+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:45:35.319+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:45:35.334+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:45:35.334+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:45:35.349+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.053 seconds
+[2026-05-09T11:46:17.254+0000] {processor.py:161} INFO - Started process (PID=23806) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:46:17.255+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:46:17.255+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:46:17.255+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:46:17.261+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:46:17.272+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:46:17.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:46:17.288+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:46:17.288+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:46:17.305+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.057 seconds
+[2026-05-09T11:46:39.362+0000] {processor.py:161} INFO - Started process (PID=24026) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:46:39.362+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:46:39.363+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:46:39.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:46:39.369+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:46:39.379+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:46:39.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:46:39.394+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:46:39.394+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:46:39.411+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.055 seconds
+[2026-05-09T11:47:24.419+0000] {processor.py:161} INFO - Started process (PID=24506) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:47:24.420+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:47:24.420+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:47:24.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:47:24.426+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:47:24.436+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:47:24.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:47:24.451+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:47:24.451+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:47:24.466+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.054 seconds
+[2026-05-09T11:48:08.651+0000] {processor.py:161} INFO - Started process (PID=24867) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:48:08.652+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:48:08.653+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:48:08.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:48:08.659+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:48:08.668+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:48:08.668+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:48:08.682+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:48:08.682+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:48:08.697+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.052 seconds
+[2026-05-09T11:48:51.014+0000] {processor.py:161} INFO - Started process (PID=25305) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:48:51.015+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:48:51.015+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:48:51.015+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:48:51.021+0000] {processor.py:840} INFO - DAG(s) 'tpch_pipeline' retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:48:51.032+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:48:51.032+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T11:48:51.046+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:48:51.046+0000] {dag.py:3954} INFO - Setting next_dagrun for tpch_pipeline to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T11:48:51.062+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.054 seconds
+[2026-05-09T11:49:30.359+0000] {processor.py:161} INFO - Started process (PID=25597) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:49:30.360+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:49:30.360+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:49:30.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:49:30.365+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:49:30.363+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:49:30.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:49:30.382+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.031 seconds
+[2026-05-09T11:50:14.355+0000] {processor.py:161} INFO - Started process (PID=26037) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:50:14.356+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:50:14.357+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:50:14.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:50:14.361+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:50:14.359+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:50:14.361+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:50:14.381+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.037 seconds
+[2026-05-09T11:50:56.649+0000] {processor.py:161} INFO - Started process (PID=26590) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:50:56.652+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:50:56.655+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:50:56.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:50:56.662+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:50:56.660+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:50:56.662+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:50:56.683+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.045 seconds
+[2026-05-09T11:51:39.087+0000] {processor.py:161} INFO - Started process (PID=27033) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:51:39.088+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:51:39.088+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:51:39.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:51:39.091+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:51:39.090+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:51:39.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:51:39.104+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T11:52:20.705+0000] {processor.py:161} INFO - Started process (PID=27371) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:52:20.705+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:52:20.706+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:52:20.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:52:20.708+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:52:20.708+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:52:20.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:52:20.721+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.022 seconds
+[2026-05-09T11:52:59.980+0000] {processor.py:161} INFO - Started process (PID=27726) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:52:59.981+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:52:59.981+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:52:59.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:52:59.984+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:52:59.983+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:52:59.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:52:59.997+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T11:53:40.515+0000] {processor.py:161} INFO - Started process (PID=28137) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:53:40.515+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:53:40.516+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:53:40.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:53:40.518+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:53:40.518+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:53:40.519+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:53:40.532+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T11:54:21.008+0000] {processor.py:161} INFO - Started process (PID=28430) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:54:21.008+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:54:21.009+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:54:21.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:54:21.012+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:54:21.011+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:54:21.012+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:54:21.025+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T11:55:02.555+0000] {processor.py:161} INFO - Started process (PID=28774) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:55:02.556+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:55:02.556+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:55:02.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:55:02.559+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:55:02.558+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:55:02.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:55:02.572+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T11:55:43.721+0000] {processor.py:161} INFO - Started process (PID=29131) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:55:43.722+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:55:43.722+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:55:43.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:55:43.725+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:55:43.724+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:55:43.725+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:55:43.738+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T11:56:26.045+0000] {processor.py:161} INFO - Started process (PID=29427) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:56:26.046+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:56:26.046+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:56:26.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:56:26.049+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:56:26.048+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:56:26.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:56:26.066+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T11:57:05.207+0000] {processor.py:161} INFO - Started process (PID=29767) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:57:05.207+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:57:05.208+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:57:05.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:57:05.210+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:57:05.210+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:57:05.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:57:05.223+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T11:57:48.509+0000] {processor.py:161} INFO - Started process (PID=30132) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:57:48.509+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:57:48.510+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:57:48.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:57:48.513+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:57:48.512+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:57:48.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:57:48.526+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T11:58:31.694+0000] {processor.py:161} INFO - Started process (PID=30442) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:58:31.694+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:58:31.695+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:58:31.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:58:31.698+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:58:31.697+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:58:31.698+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:58:31.712+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.026 seconds
+[2026-05-09T11:59:14.128+0000] {processor.py:161} INFO - Started process (PID=30796) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:59:14.129+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:59:14.129+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:59:14.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:59:14.132+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:59:14.131+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:59:14.132+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:59:14.146+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T11:59:55.151+0000] {processor.py:161} INFO - Started process (PID=31153) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:59:55.152+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T11:59:55.153+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:59:55.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:59:55.155+0000] {logging_mixin.py:188} INFO - [2026-05-09T11:59:55.155+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T11:59:55.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T11:59:55.169+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:00:35.525+0000] {processor.py:161} INFO - Started process (PID=31501) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:00:35.525+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:00:35.526+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:00:35.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:00:35.529+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:00:35.528+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:00:35.529+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:00:35.542+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:01:18.625+0000] {processor.py:161} INFO - Started process (PID=31797) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:01:18.625+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:01:18.626+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:01:18.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:01:18.630+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:01:18.629+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:01:18.631+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:01:18.644+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.040 seconds
+[2026-05-09T12:02:02.006+0000] {processor.py:161} INFO - Started process (PID=32164) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:02:02.006+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:02:02.007+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:02:02.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:02:02.009+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:02:02.009+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:02:02.010+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:02:02.023+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T12:02:44.154+0000] {processor.py:161} INFO - Started process (PID=32521) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:02:44.155+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:02:44.155+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:02:44.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:02:44.159+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:02:44.158+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:02:44.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:02:44.174+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.026 seconds
+[2026-05-09T12:03:25.024+0000] {processor.py:161} INFO - Started process (PID=32818) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:03:25.025+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:03:25.025+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:03:25.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:03:25.028+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:03:25.027+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:03:25.028+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:03:25.042+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:04:07.449+0000] {processor.py:161} INFO - Started process (PID=33231) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:04:07.449+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:04:07.450+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:04:07.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:04:07.453+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:04:07.452+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:04:07.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:04:07.467+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:04:48.966+0000] {processor.py:161} INFO - Started process (PID=33589) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:04:48.967+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:04:48.968+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:04:48.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:04:48.970+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:04:48.969+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:04:48.971+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:04:48.984+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:05:30.644+0000] {processor.py:161} INFO - Started process (PID=33885) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:05:30.645+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:05:30.645+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:05:30.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:05:30.648+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:05:30.647+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:05:30.648+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:05:30.661+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T12:06:11.631+0000] {processor.py:161} INFO - Started process (PID=34241) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:06:11.632+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:06:11.632+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:06:11.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:06:11.636+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:06:11.635+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:06:11.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:06:11.653+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.031 seconds
+[2026-05-09T12:06:57.045+0000] {processor.py:161} INFO - Started process (PID=34612) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:06:57.045+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:06:57.046+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:06:57.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:06:57.049+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:06:57.048+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:06:57.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:06:57.061+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:07:40.207+0000] {processor.py:161} INFO - Started process (PID=34979) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:07:40.208+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:07:40.209+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:07:40.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:07:40.211+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:07:40.210+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:07:40.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:07:40.224+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T12:08:20.809+0000] {processor.py:161} INFO - Started process (PID=35260) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:08:20.809+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:08:20.810+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:08:20.809+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:08:20.813+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:08:20.812+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:08:20.813+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:08:20.825+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T12:09:01.523+0000] {processor.py:161} INFO - Started process (PID=35678) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:09:01.524+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:09:01.525+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:09:01.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:09:01.528+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:09:01.527+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:09:01.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:09:01.544+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T12:09:40.092+0000] {processor.py:161} INFO - Started process (PID=36018) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:09:40.092+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:09:40.093+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:09:40.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:09:40.095+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:09:40.095+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:09:40.096+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:09:40.110+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.025 seconds
+[2026-05-09T12:10:21.253+0000] {processor.py:161} INFO - Started process (PID=36306) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:10:21.254+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:10:21.255+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:10:21.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:10:21.260+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:10:21.259+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:10:21.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:10:21.274+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T12:11:02.393+0000] {processor.py:161} INFO - Started process (PID=36656) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:11:02.394+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:11:02.394+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:11:02.394+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:11:02.397+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:11:02.396+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:11:02.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:11:02.410+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T12:11:42.371+0000] {processor.py:161} INFO - Started process (PID=37010) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:11:42.371+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:11:42.372+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:11:42.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:11:42.375+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:11:42.374+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:11:42.375+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:11:42.389+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.025 seconds
+[2026-05-09T12:12:23.543+0000] {processor.py:161} INFO - Started process (PID=37299) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:12:23.544+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:12:23.544+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:12:23.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:12:23.547+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:12:23.546+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:12:23.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:12:23.562+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.030 seconds
+[2026-05-09T12:13:04.619+0000] {processor.py:161} INFO - Started process (PID=37654) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:13:04.619+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:13:04.620+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:13:04.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:13:04.622+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:13:04.622+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:13:04.623+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:13:04.640+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T12:13:46.039+0000] {processor.py:161} INFO - Started process (PID=38071) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:13:46.040+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:13:46.041+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:13:46.040+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:13:46.043+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:13:46.042+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:13:46.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:13:46.057+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T12:14:31.992+0000] {processor.py:161} INFO - Started process (PID=38386) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:14:31.993+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:14:31.993+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:14:31.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:14:31.996+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:14:31.995+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:14:31.996+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:14:32.010+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:15:11.949+0000] {processor.py:161} INFO - Started process (PID=38730) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:15:11.950+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:15:11.950+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:15:11.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:15:11.953+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:15:11.952+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:15:11.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:15:11.967+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.025 seconds
+[2026-05-09T12:15:54.797+0000] {processor.py:161} INFO - Started process (PID=39094) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:15:54.798+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:15:54.799+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:15:54.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:15:54.801+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:15:54.800+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:15:54.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:15:54.814+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T12:16:39.209+0000] {processor.py:161} INFO - Started process (PID=39469) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:16:39.209+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:16:39.210+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:16:39.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:16:39.212+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:16:39.212+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:16:39.213+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:16:39.226+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.023 seconds
+[2026-05-09T12:17:25.410+0000] {processor.py:161} INFO - Started process (PID=39784) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:17:25.411+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:17:25.412+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:17:25.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:17:25.415+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:17:25.414+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:17:25.416+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:17:25.428+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T12:18:07.663+0000] {processor.py:161} INFO - Started process (PID=40144) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:18:07.664+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:18:07.664+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:18:07.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:18:07.667+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:18:07.666+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:18:07.668+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:18:07.684+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.027 seconds
+[2026-05-09T12:18:48.087+0000] {processor.py:161} INFO - Started process (PID=40553) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:18:48.087+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:18:48.088+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:18:48.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:18:48.091+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:18:48.090+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:18:48.092+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:18:48.106+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.026 seconds
+[2026-05-09T12:19:30.022+0000] {processor.py:161} INFO - Started process (PID=40848) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:19:30.023+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:19:30.024+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:19:30.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:19:30.027+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:19:30.026+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:19:30.027+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:19:30.042+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.026 seconds
+[2026-05-09T12:20:16.572+0000] {processor.py:161} INFO - Started process (PID=41232) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:20:16.573+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:20:16.573+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:20:16.573+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:20:16.576+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:20:16.575+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:20:16.576+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:20:16.589+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.025 seconds
+[2026-05-09T12:20:56.721+0000] {processor.py:161} INFO - Started process (PID=41583) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:20:56.722+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:20:56.723+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:20:56.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:20:56.725+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:20:56.725+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:20:56.726+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:20:56.739+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.024 seconds
+[2026-05-09T12:21:36.947+0000] {processor.py:161} INFO - Started process (PID=41933) to work on /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:21:36.948+0000] {processor.py:830} INFO - Processing file /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py for tasks to queue
+[2026-05-09T12:21:36.948+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:21:36.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:21:36.951+0000] {logging_mixin.py:188} INFO - [2026-05-09T12:21:36.950+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py", line 3, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2026-05-09T12:21:36.951+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py
+[2026-05-09T12:21:36.965+0000] {processor.py:183} INFO - Processing /workspaces/etl-pipeline-framework/airflow/dags/tpch_pipeline.py took 0.025 seconds

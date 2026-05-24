@@ -1,0 +1,303 @@
+[2026-05-23T12:01:20.363+0000] {processor.py:161} INFO - Started process (PID=25386) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:01:20.363+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:01:20.364+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:20.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:01:20.366+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:20.365+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:20.366+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:01:20.380+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.024 seconds
+[2026-05-23T12:01:50.920+0000] {processor.py:161} INFO - Started process (PID=27163) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:01:50.924+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:01:50.927+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:50.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:01:50.933+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:50.930+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:50.934+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:01:50.963+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.078 seconds
+[2026-05-23T12:02:24.004+0000] {processor.py:161} INFO - Started process (PID=29285) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:02:24.035+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:02:24.035+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:24.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:02:24.038+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:24.037+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:24.038+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:02:24.052+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.055 seconds
+[2026-05-23T12:02:54.147+0000] {processor.py:161} INFO - Started process (PID=29761) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:02:54.147+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:02:54.148+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:54.147+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:02:54.150+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:54.149+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:54.150+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:02:54.164+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.024 seconds
+[2026-05-23T12:03:24.581+0000] {processor.py:161} INFO - Started process (PID=29920) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:03:24.581+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:03:24.582+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:24.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:03:24.585+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:24.584+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:24.585+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:03:24.599+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.025 seconds
+[2026-05-23T12:03:55.171+0000] {processor.py:161} INFO - Started process (PID=30036) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:03:55.172+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:03:55.172+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:55.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:03:55.175+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:55.174+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:55.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:03:55.188+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:04:25.738+0000] {processor.py:161} INFO - Started process (PID=30156) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:04:25.739+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:04:25.739+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:25.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:04:25.742+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:25.741+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:25.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:04:25.755+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:04:55.916+0000] {processor.py:161} INFO - Started process (PID=30265) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:04:55.916+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:04:55.917+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:55.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:04:55.920+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:55.919+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:55.920+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:04:55.939+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.030 seconds
+[2026-05-23T12:05:26.911+0000] {processor.py:161} INFO - Started process (PID=30381) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:05:26.912+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:05:26.912+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:26.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:05:26.914+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:26.914+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:26.915+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:05:26.928+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:05:57.827+0000] {processor.py:161} INFO - Started process (PID=30491) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:05:57.827+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:05:57.828+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:57.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:05:57.830+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:57.830+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:57.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:05:57.843+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:06:28.009+0000] {processor.py:161} INFO - Started process (PID=30605) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:06:28.010+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:06:28.011+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:28.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:06:28.013+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:28.013+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:28.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:06:28.027+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.026 seconds
+[2026-05-23T12:06:58.278+0000] {processor.py:161} INFO - Started process (PID=30714) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:06:58.279+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:06:58.280+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:58.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:06:58.284+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:58.283+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:58.284+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:06:58.306+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.040 seconds
+[2026-05-23T12:07:28.545+0000] {processor.py:161} INFO - Started process (PID=30829) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:07:28.546+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:07:28.546+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:28.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:07:28.549+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:28.548+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:28.549+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:07:28.562+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:07:58.743+0000] {processor.py:161} INFO - Started process (PID=30943) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:07:58.743+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:07:58.744+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:58.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:07:58.746+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:58.746+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:58.747+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:07:58.759+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:08:29.008+0000] {processor.py:161} INFO - Started process (PID=31097) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:08:29.009+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:08:29.009+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:29.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:08:29.012+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:29.011+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:29.012+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:08:29.024+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:08:59.273+0000] {processor.py:161} INFO - Started process (PID=31310) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:08:59.274+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:08:59.274+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:59.274+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:08:59.277+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:59.276+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:59.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:08:59.290+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:09:29.554+0000] {processor.py:161} INFO - Started process (PID=31558) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:09:29.555+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:09:29.555+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:29.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:09:29.559+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:29.558+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:29.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:09:29.576+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.033 seconds
+[2026-05-23T12:09:59.827+0000] {processor.py:161} INFO - Started process (PID=31723) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:09:59.827+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:09:59.828+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:59.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:09:59.830+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:59.830+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:59.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:09:59.843+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds
+[2026-05-23T12:10:30.096+0000] {processor.py:161} INFO - Started process (PID=31928) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:10:30.096+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:10:30.097+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:30.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:10:30.100+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:30.099+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:30.100+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:10:30.114+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.027 seconds
+[2026-05-23T12:11:00.360+0000] {processor.py:161} INFO - Started process (PID=32131) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:11:00.361+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py for tasks to queue
+[2026-05-23T12:11:00.361+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:00.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:11:00.364+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:00.363+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py", line 24, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:11:00.364+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py
+[2026-05-23T12:11:00.377+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_short_circuit_operator.py took 0.023 seconds

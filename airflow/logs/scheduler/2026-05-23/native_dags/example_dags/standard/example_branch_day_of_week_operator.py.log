@@ -1,0 +1,288 @@
+[2026-05-23T12:01:36.077+0000] {processor.py:161} INFO - Started process (PID=26250) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:01:36.078+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:01:36.078+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:36.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:01:36.081+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:36.080+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:36.081+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:01:36.097+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.026 seconds
+[2026-05-23T12:02:10.802+0000] {processor.py:161} INFO - Started process (PID=27876) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:02:10.803+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:02:10.804+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:10.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:02:10.806+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:10.805+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:10.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:02:10.820+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.026 seconds
+[2026-05-23T12:02:41.138+0000] {processor.py:161} INFO - Started process (PID=29530) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:02:41.139+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:02:41.139+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:41.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:02:41.141+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:41.141+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:41.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:02:41.154+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.023 seconds
+[2026-05-23T12:03:11.415+0000] {processor.py:161} INFO - Started process (PID=29874) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:03:11.415+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:03:11.416+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:11.415+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:03:11.418+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:11.418+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:11.419+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:03:11.432+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.024 seconds
+[2026-05-23T12:03:41.681+0000] {processor.py:161} INFO - Started process (PID=29990) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:03:41.682+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:03:41.682+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:41.682+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:03:41.685+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:41.684+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:41.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:03:41.698+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.024 seconds
+[2026-05-23T12:04:11.947+0000] {processor.py:161} INFO - Started process (PID=30099) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:04:11.947+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:04:11.948+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:11.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:04:11.950+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:11.949+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:11.950+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:04:11.964+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.024 seconds
+[2026-05-23T12:04:43.273+0000] {processor.py:161} INFO - Started process (PID=30215) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:04:43.274+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:04:43.274+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:43.274+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:04:43.276+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:43.276+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:43.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:04:43.290+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.024 seconds
+[2026-05-23T12:05:13.549+0000] {processor.py:161} INFO - Started process (PID=30325) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:05:13.550+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:05:13.551+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:13.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:05:13.553+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:13.552+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:13.553+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:05:13.566+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.022 seconds
+[2026-05-23T12:05:44.621+0000] {processor.py:161} INFO - Started process (PID=30441) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:05:44.621+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:05:44.622+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:44.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:05:44.624+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:44.624+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:44.625+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:05:44.638+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.024 seconds
+[2026-05-23T12:06:15.237+0000] {processor.py:161} INFO - Started process (PID=30556) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:06:15.238+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:06:15.239+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:15.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:06:15.241+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:15.240+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:15.241+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:06:15.254+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.024 seconds
+[2026-05-23T12:06:45.540+0000] {processor.py:161} INFO - Started process (PID=30666) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:06:45.540+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:06:45.541+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:45.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:06:45.543+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:45.542+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:45.544+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:06:45.557+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.024 seconds
+[2026-05-23T12:07:15.947+0000] {processor.py:161} INFO - Started process (PID=30780) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:07:15.947+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:07:15.948+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:15.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:07:15.950+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:15.949+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:15.951+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:07:15.963+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.023 seconds
+[2026-05-23T12:07:47.472+0000] {processor.py:161} INFO - Started process (PID=30896) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:07:47.472+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:07:47.473+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:47.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:07:47.475+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:47.474+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:47.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:07:47.490+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.026 seconds
+[2026-05-23T12:08:17.869+0000] {processor.py:161} INFO - Started process (PID=31012) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:08:17.869+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:08:17.870+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:17.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:08:17.872+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:17.872+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:17.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:08:17.886+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.023 seconds
+[2026-05-23T12:08:48.266+0000] {processor.py:161} INFO - Started process (PID=31223) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:08:48.266+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:08:48.267+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:48.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:08:48.270+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:48.269+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:48.271+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:08:48.285+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.028 seconds
+[2026-05-23T12:09:18.670+0000] {processor.py:161} INFO - Started process (PID=31463) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:09:18.670+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:09:18.671+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:18.671+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:09:18.673+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:18.673+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:18.674+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:09:18.687+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.027 seconds
+[2026-05-23T12:09:50.965+0000] {processor.py:161} INFO - Started process (PID=31678) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:09:50.965+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:09:50.966+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:50.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:09:50.968+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:50.967+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:50.969+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:09:50.982+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.023 seconds
+[2026-05-23T12:10:21.578+0000] {processor.py:161} INFO - Started process (PID=31877) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:10:21.578+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:10:21.579+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:21.578+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:10:21.581+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:21.580+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:21.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:10:21.594+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.023 seconds
+[2026-05-23T12:10:52.185+0000] {processor.py:161} INFO - Started process (PID=32069) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:10:52.186+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-23T12:10:52.187+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:52.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:10:52.189+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:52.188+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py", line 26, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:52.189+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py
+[2026-05-23T12:10:52.214+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py took 0.038 seconds

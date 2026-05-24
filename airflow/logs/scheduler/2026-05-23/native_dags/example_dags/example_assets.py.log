@@ -1,0 +1,288 @@
+[2026-05-23T12:01:45.670+0000] {processor.py:161} INFO - Started process (PID=26561) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:01:45.670+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:01:45.671+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:45.671+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:01:45.676+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:45.675+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:45.677+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:01:45.701+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.041 seconds
+[2026-05-23T12:02:19.608+0000] {processor.py:161} INFO - Started process (PID=29033) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:02:19.610+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:02:19.611+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:19.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:02:19.618+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:19.616+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:19.619+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:02:19.664+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.076 seconds
+[2026-05-23T12:02:50.170+0000] {processor.py:161} INFO - Started process (PID=29687) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:02:50.171+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:02:50.171+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:50.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:02:50.174+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:50.173+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:50.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:02:50.187+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.023 seconds
+[2026-05-23T12:03:20.768+0000] {processor.py:161} INFO - Started process (PID=29911) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:03:20.768+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:03:20.769+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:20.769+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:03:20.773+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:20.772+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:20.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:03:20.794+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.035 seconds
+[2026-05-23T12:03:51.276+0000] {processor.py:161} INFO - Started process (PID=30022) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:03:51.276+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:03:51.277+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:51.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:03:51.282+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:51.281+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:51.283+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:03:51.302+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.037 seconds
+[2026-05-23T12:04:21.619+0000] {processor.py:161} INFO - Started process (PID=30136) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:04:21.619+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:04:21.620+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:21.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:04:21.622+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:21.621+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:21.623+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:04:21.636+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.024 seconds
+[2026-05-23T12:04:52.020+0000] {processor.py:161} INFO - Started process (PID=30245) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:04:52.021+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:04:52.022+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:52.021+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:04:52.025+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:52.024+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:52.026+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:04:52.042+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.030 seconds
+[2026-05-23T12:05:22.424+0000] {processor.py:161} INFO - Started process (PID=30361) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:05:22.425+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:05:22.426+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:22.425+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:05:22.429+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:22.428+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:22.429+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:05:22.445+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.027 seconds
+[2026-05-23T12:05:53.956+0000] {processor.py:161} INFO - Started process (PID=30477) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:05:53.957+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:05:53.957+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:53.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:05:53.960+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:53.959+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:53.960+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:05:53.973+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.024 seconds
+[2026-05-23T12:06:24.765+0000] {processor.py:161} INFO - Started process (PID=30587) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:06:24.765+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:06:24.766+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:24.766+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:06:24.768+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:24.768+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:24.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:06:24.781+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.023 seconds
+[2026-05-23T12:06:55.671+0000] {processor.py:161} INFO - Started process (PID=30703) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:06:55.671+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:06:55.672+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:55.672+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:06:55.674+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:55.673+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:55.674+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:06:55.700+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.035 seconds
+[2026-05-23T12:07:26.031+0000] {processor.py:161} INFO - Started process (PID=30817) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:07:26.032+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:07:26.033+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:26.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:07:26.035+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:26.034+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:26.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:07:26.048+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.023 seconds
+[2026-05-23T12:07:56.472+0000] {processor.py:161} INFO - Started process (PID=30932) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:07:56.473+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:07:56.474+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:56.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:07:56.476+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:56.475+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:56.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:07:56.490+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.024 seconds
+[2026-05-23T12:08:27.312+0000] {processor.py:161} INFO - Started process (PID=31084) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:08:27.313+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:08:27.314+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:27.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:08:27.316+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:27.315+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:27.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:08:27.329+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.023 seconds
+[2026-05-23T12:08:58.394+0000] {processor.py:161} INFO - Started process (PID=31299) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:08:58.395+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:08:58.395+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:58.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:08:58.398+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:58.397+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:58.398+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:08:58.410+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.023 seconds
+[2026-05-23T12:09:28.869+0000] {processor.py:161} INFO - Started process (PID=31546) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:09:28.870+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:09:28.870+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:28.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:09:28.874+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:28.873+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:28.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:09:28.901+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.043 seconds
+[2026-05-23T12:10:01.239+0000] {processor.py:161} INFO - Started process (PID=31729) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:10:01.240+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:10:01.241+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:01.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:10:01.243+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:01.242+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:01.243+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:10:01.256+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.023 seconds
+[2026-05-23T12:10:31.852+0000] {processor.py:161} INFO - Started process (PID=31941) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:10:31.853+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:10:31.853+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:31.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:10:31.856+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:31.855+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:31.856+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:10:31.869+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.023 seconds
+[2026-05-23T12:11:02.462+0000] {processor.py:161} INFO - Started process (PID=32135) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:11:02.463+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py for tasks to queue
+[2026-05-23T12:11:02.463+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:02.463+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:11:02.466+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:11:02.465+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py", line 58, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:11:02.467+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py
+[2026-05-23T12:11:02.480+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_assets.py took 0.024 seconds

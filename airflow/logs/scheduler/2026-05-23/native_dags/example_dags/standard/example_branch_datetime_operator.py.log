@@ -1,0 +1,288 @@
+[2026-05-23T12:01:37.212+0000] {processor.py:161} INFO - Started process (PID=26284) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:01:37.213+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:01:37.213+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:37.213+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:01:37.216+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:37.215+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:01:37.216+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:01:37.229+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.023 seconds
+[2026-05-23T12:02:11.012+0000] {processor.py:161} INFO - Started process (PID=27878) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:02:11.013+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:02:11.014+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:11.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:02:11.017+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:11.016+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:11.017+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:02:11.035+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.031 seconds
+[2026-05-23T12:02:41.623+0000] {processor.py:161} INFO - Started process (PID=29562) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:02:41.624+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:02:41.624+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:41.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:02:41.626+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:41.626+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:02:41.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:02:41.641+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.025 seconds
+[2026-05-23T12:03:12.226+0000] {processor.py:161} INFO - Started process (PID=29876) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:03:12.227+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:03:12.227+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:12.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:03:12.230+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:12.229+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:12.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:03:12.244+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.025 seconds
+[2026-05-23T12:03:42.736+0000] {processor.py:161} INFO - Started process (PID=29992) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:03:42.736+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:03:42.737+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:42.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:03:42.739+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:42.738+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:03:42.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:03:42.752+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.023 seconds
+[2026-05-23T12:04:13.078+0000] {processor.py:161} INFO - Started process (PID=30102) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:04:13.079+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:04:13.079+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:13.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:04:13.082+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:13.081+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:13.082+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:04:13.096+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:04:43.482+0000] {processor.py:161} INFO - Started process (PID=30216) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:04:43.482+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:04:43.483+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:43.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:04:43.485+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:43.485+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:04:43.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:04:43.499+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:05:13.890+0000] {processor.py:161} INFO - Started process (PID=30326) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:05:13.891+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:05:13.891+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:13.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:05:13.894+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:13.893+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:13.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:05:13.907+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:05:45.758+0000] {processor.py:161} INFO - Started process (PID=30443) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:05:45.759+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:05:45.760+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:45.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:05:45.762+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:45.761+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:05:45.762+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:05:45.782+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.030 seconds
+[2026-05-23T12:06:16.472+0000] {processor.py:161} INFO - Started process (PID=30565) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:06:16.473+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:06:16.474+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:16.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:06:16.476+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:16.475+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:16.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:06:16.490+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:06:47.324+0000] {processor.py:161} INFO - Started process (PID=30674) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:06:47.324+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:06:47.325+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:47.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:06:47.327+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:47.326+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:06:47.327+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:06:47.340+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.022 seconds
+[2026-05-23T12:07:18.043+0000] {processor.py:161} INFO - Started process (PID=30789) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:07:18.043+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:07:18.044+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:18.044+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:07:18.046+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:18.045+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:18.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:07:18.059+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.023 seconds
+[2026-05-23T12:07:48.613+0000] {processor.py:161} INFO - Started process (PID=30905) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:07:48.614+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:07:48.614+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:48.614+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:07:48.617+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:48.616+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:07:48.617+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:07:48.630+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.023 seconds
+[2026-05-23T12:08:19.117+0000] {processor.py:161} INFO - Started process (PID=31014) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:08:19.117+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:08:19.118+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:19.118+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:08:19.120+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:19.120+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:19.121+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:08:19.134+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:08:49.664+0000] {processor.py:161} INFO - Started process (PID=31235) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:08:49.665+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:08:49.665+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:49.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:08:49.667+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:49.667+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:08:49.668+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:08:49.681+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:09:20.142+0000] {processor.py:161} INFO - Started process (PID=31475) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:09:20.143+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:09:20.144+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:20.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:09:20.146+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:20.145+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:20.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:09:20.161+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.026 seconds
+[2026-05-23T12:09:52.095+0000] {processor.py:161} INFO - Started process (PID=31680) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:09:52.095+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:09:52.096+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:52.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:09:52.099+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:52.098+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:09:52.099+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:09:52.112+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:10:23.080+0000] {processor.py:161} INFO - Started process (PID=31880) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:10:23.080+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:10:23.081+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:23.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:10:23.083+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:23.082+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:23.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:10:23.097+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.024 seconds
+[2026-05-23T12:10:53.313+0000] {processor.py:161} INFO - Started process (PID=32074) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:10:53.313+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py for tasks to queue
+[2026-05-23T12:10:53.314+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:53.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:10:53.316+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:53.315+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py", line 27, in <module>
+    from airflow.providers.standard.operators.datetime import BranchDateTimeOperator
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-23T12:10:53.317+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py
+[2026-05-23T12:10:53.329+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/standard/example_branch_datetime_operator.py took 0.023 seconds

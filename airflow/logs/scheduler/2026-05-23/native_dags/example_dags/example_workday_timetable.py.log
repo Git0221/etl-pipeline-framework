@@ -1,0 +1,250 @@
+[2026-05-23T12:01:39.488+0000] {processor.py:161} INFO - Started process (PID=26337) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:01:39.489+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:01:39.490+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:39.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:01:39.499+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:01:39.493+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:01:39.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:01:39.557+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.091 seconds
+[2026-05-23T12:02:14.863+0000] {processor.py:161} INFO - Started process (PID=28535) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:02:14.863+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:02:14.864+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:14.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:02:14.867+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:14.866+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:02:14.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:02:14.899+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.044 seconds
+[2026-05-23T12:02:45.022+0000] {processor.py:161} INFO - Started process (PID=29605) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:02:45.023+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:02:45.023+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:45.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:02:45.027+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:02:45.026+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:02:45.028+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:02:45.049+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.034 seconds
+[2026-05-23T12:03:15.625+0000] {processor.py:161} INFO - Started process (PID=29895) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:03:15.625+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:03:15.626+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:15.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:03:15.628+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:15.627+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:03:15.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:03:15.641+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:03:46.132+0000] {processor.py:161} INFO - Started process (PID=30006) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:03:46.133+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:03:46.133+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:46.133+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:03:46.135+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:03:46.135+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:03:46.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:03:46.149+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:04:16.491+0000] {processor.py:161} INFO - Started process (PID=30120) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:04:16.492+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:04:16.493+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:16.492+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:04:16.495+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:16.494+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:04:16.495+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:04:16.508+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:04:46.879+0000] {processor.py:161} INFO - Started process (PID=30229) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:04:46.880+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:04:46.881+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:46.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:04:46.882+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:04:46.882+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:04:46.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:04:46.897+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.024 seconds
+[2026-05-23T12:05:17.287+0000] {processor.py:161} INFO - Started process (PID=30345) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:05:17.287+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:05:17.288+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:17.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:05:17.289+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:17.289+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:05:17.290+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:05:17.304+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.024 seconds
+[2026-05-23T12:05:49.157+0000] {processor.py:161} INFO - Started process (PID=30461) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:05:49.158+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:05:49.159+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:49.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:05:49.160+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:05:49.160+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:05:49.161+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:05:49.174+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:06:19.863+0000] {processor.py:161} INFO - Started process (PID=30571) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:06:19.864+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:06:19.864+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:19.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:06:19.866+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:19.866+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:06:19.866+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:06:19.881+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.024 seconds
+[2026-05-23T12:06:50.713+0000] {processor.py:161} INFO - Started process (PID=30687) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:06:50.713+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:06:50.714+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:50.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:06:50.716+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:06:50.715+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:06:50.716+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:06:50.729+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:07:21.438+0000] {processor.py:161} INFO - Started process (PID=30802) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:07:21.438+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:07:21.439+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:21.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:07:21.440+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:21.440+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:07:21.441+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:07:21.453+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.022 seconds
+[2026-05-23T12:07:52.003+0000] {processor.py:161} INFO - Started process (PID=30911) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:07:52.003+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:07:52.004+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:52.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:07:52.006+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:07:52.005+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:07:52.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:07:52.019+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:08:23.054+0000] {processor.py:161} INFO - Started process (PID=31048) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:08:23.055+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:08:23.055+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:23.055+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:08:23.057+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:23.057+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:08:23.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:08:23.071+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:08:53.663+0000] {processor.py:161} INFO - Started process (PID=31263) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:08:53.664+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:08:53.664+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:53.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:08:53.666+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:08:53.666+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:08:53.666+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:08:53.679+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.022 seconds
+[2026-05-23T12:09:24.167+0000] {processor.py:161} INFO - Started process (PID=31509) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:09:24.168+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:09:24.169+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:24.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:09:24.172+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:24.171+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:09:24.172+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:09:24.222+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.075 seconds
+[2026-05-23T12:09:55.852+0000] {processor.py:161} INFO - Started process (PID=31694) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:09:55.852+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:09:55.853+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:55.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:09:55.855+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:09:55.854+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:09:55.856+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:09:55.877+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.032 seconds
+[2026-05-23T12:10:26.251+0000] {processor.py:161} INFO - Started process (PID=31905) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:10:26.252+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:10:26.252+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:26.252+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:10:26.255+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:26.254+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:10:26.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:10:26.268+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
+[2026-05-23T12:10:56.647+0000] {processor.py:161} INFO - Started process (PID=32087) to work on /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:10:56.648+0000] {processor.py:830} INFO - Processing file /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2026-05-23T12:10:56.648+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:56.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:10:56.650+0000] {logging_mixin.py:188} INFO - [2026-05-23T12:10:56.650+0000] {dagbag.py:355} ERROR - Failed to import: /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2026-05-23T12:10:56.651+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2026-05-23T12:10:56.664+0000] {processor.py:183} INFO - Processing /home/vscode/.local/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.023 seconds
