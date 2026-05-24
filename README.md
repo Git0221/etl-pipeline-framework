@@ -212,7 +212,7 @@ It consists of 8 tables modelling a product supplier database:
 ## Author
 
 **Rakesh Kumar**
-Senior Database Engineer | 19 Years Experience
-Oracle · SQL Server · Snowflake · AWS Redshift
+Senior Database Engineer 
+SQL Server · Snowflake · Python
 
 *Building in public — follow the commits to see the project evolve.*
